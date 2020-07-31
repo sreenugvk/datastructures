@@ -35,11 +35,13 @@ class ILinkedListTest {
 		assertEquals(1, list.size() );
 	}
 
-//	@Test
-//	void testInsertAtBegin() {
-//		fail("Not yet implemented");
-//	}
-//
+	@Test
+	void testInsertAtBegin() {
+		ILinkedList list= new ILinkedList();
+		list.insertAtBegin("sreenu");
+		assertEquals(1, list.size() );
+	}
+
 //	@Test
 //	void testInsertAtEnd() {
 //		fail("Not yet implemented");
