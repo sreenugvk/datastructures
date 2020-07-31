@@ -26,74 +26,73 @@ class ILinkedListTest {
 	void tearDown() throws Exception {
 	}
 
-	@Test
-	void testILinkedList() {
-		fail("Not yet implemented");
-	}
+	
 
 	@Test
 	void testSize() {
-		fail("Not yet implemented");
+		ILinkedList list= new ILinkedList();
+		list.insertAtBegin("sreenu");
+		assertEquals(1, list.size() );
 	}
 
-	@Test
-	void testInsertAtBegin() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testInsertAtEnd() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testInsert() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testRemoveMatched() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testRemoveInt() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testRemoveString() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testRemoveFirst() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testRemoveLast() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testGetPosition() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testClearList() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testToString() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testMain() {
-		fail("Not yet implemented");
-	}
+//	@Test
+//	void testInsertAtBegin() {
+//		fail("Not yet implemented");
+//	}
+//
+//	@Test
+//	void testInsertAtEnd() {
+//		fail("Not yet implemented");
+//	}
+//
+//	@Test
+//	void testInsert() {
+//		fail("Not yet implemented");
+//	}
+//
+//	@Test
+//	void testRemoveMatched() {
+//		fail("Not yet implemented");
+//	}
+//
+//	@Test
+//	void testRemoveInt() {
+//		fail("Not yet implemented");
+//	}
+//
+//	@Test
+//	void testRemoveString() {
+//		fail("Not yet implemented");
+//	}
+//
+//	@Test
+//	void testRemoveFirst() {
+//		fail("Not yet implemented");
+//	}
+//
+//	@Test
+//	void testRemoveLast() {
+//		fail("Not yet implemented");
+//	}
+//
+//	@Test
+//	void testGetPosition() {
+//		fail("Not yet implemented");
+//	}
+//
+//	@Test
+//	void testClearList() {
+//		fail("Not yet implemented");
+//	}
+//
+//	@Test
+//	void testToString() {
+//		fail("Not yet implemented");
+//	}
+//
+//	@Test
+//	void testMain() {
+//		fail("Not yet implemented");
+//	}
 
 }
